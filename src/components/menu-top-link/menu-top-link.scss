@@ -1,0 +1,26 @@
+.menuTop__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    &_link {
+        font-weight: 400;
+        font-size: 16px;
+        margin-right: 40px;
+    }
+    &_linkBold {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    &_humburger {
+        cursor: pointer;
+    }
+
+    &_svg {
+        display: flex;
+        svg {
+            margin-right: 24px;
+        }
+    }
+}
